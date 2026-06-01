@@ -7,6 +7,73 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖋</text></svg>" />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Cinzel:wght@400;500;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet" />
   <style>
+    /* CONTACT */
+#contact{
+  background: var(--bg);
+}
+
+.contact-container{
+  max-width:800px;
+  margin:auto;
+}
+
+.contact-card{
+  background: var(--card-bg);
+  border:1px solid var(--border);
+  padding:60px 40px;
+  text-align:center;
+  border-radius:24px;
+  backdrop-filter:blur(15px);
+}
+
+.contact-card h3{
+  font-family:'Cinzel', serif;
+  font-size:2rem;
+  margin-bottom:20px;
+}
+
+.contact-card p{
+  color:var(--text-muted);
+  max-width:500px;
+  margin:0 auto 35px;
+  line-height:1.8;
+}
+
+.social-links{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+.social-btn{
+  padding:14px 28px;
+  text-decoration:none;
+  border-radius:14px;
+  font-family:'Cinzel', serif;
+  letter-spacing:0.08em;
+
+  background:linear-gradient(
+      135deg,
+      var(--lavender),
+      var(--purple-accent)
+  );
+
+  color:#0d0d12;
+  transition:.35s;
+}
+
+.social-btn:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 30px rgba(168,85,247,.35);
+}
+
+.reel-btn{
+  width:100%;
+  max-width:320px;
+  margin-top:10px;
+}
+    
   :root {
   --white: #ffffff;
   --off-white: #f5f3ff;
@@ -573,6 +640,73 @@ a:hover {
       margin-top: 20px;
     }
 
+    /* CONTACT */
+#contact{
+  background: var(--bg);
+}
+
+.contact-container{
+  max-width:800px;
+  margin:auto;
+}
+
+.contact-card{
+  background: var(--card-bg);
+  border:1px solid var(--border);
+  padding:60px 40px;
+  text-align:center;
+  border-radius:24px;
+  backdrop-filter:blur(15px);
+}
+
+.contact-card h3{
+  font-family:'Cinzel', serif;
+  font-size:2rem;
+  margin-bottom:20px;
+}
+
+.contact-card p{
+  color:var(--text-muted);
+  max-width:500px;
+  margin:0 auto 35px;
+  line-height:1.8;
+}
+
+.social-links{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
+}
+
+.social-btn{
+  padding:14px 28px;
+  text-decoration:none;
+  border-radius:14px;
+  font-family:'Cinzel', serif;
+  letter-spacing:0.08em;
+
+  background:linear-gradient(
+      135deg,
+      var(--lavender),
+      var(--purple-accent)
+  );
+
+  color:#0d0d12;
+  transition:.35s;
+}
+
+.social-btn:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 30px rgba(168,85,247,.35);
+}
+
+.reel-btn{
+  width:100%;
+  max-width:320px;
+  margin-top:10px;
+}
+    
     /* ── FOOTER ── */
     footer {
       position: relative; z-index: 1;
